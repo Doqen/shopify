@@ -1,0 +1,118 @@
+body {
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item a {
+    color: black;
+}
+
+.nav {
+    --bs-nav-link-hover-color: #d5ba77!important;
+}
+
+.mobile-menu {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.fs-4 {
+    position: relative;
+    color: white;
+} 
+
+.logo {
+    position: absolute;
+}
+
+.logo2 {
+    width: 150px;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.quote {
+    margin-top: 2%;
+    margin-left: 12%;
+}
+
+.author {
+    margin-left: 43%;
+    text-decoration: bold;
+}
+
+.pic {
+    margin-top: 15%;
+    width: 320px!important;
+    position: relative;
+}
+
+.pic1 {
+    max-width: 320px;
+    height: auto;
+}
+
+area:hover:after {
+    display: block;
+    background-color: rgba(0, 253, 0, 0.2);
+    content: ' ';
+  }
+
+#rect1::after {
+    position: absolute;
+    top: 0px;
+    left: 39px;
+    width: 93px;
+    height: 113px;
+  }
+
+.room-title {
+    font-size: 25px;
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .logo {
+        width: 100px;
+        position: absolute;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .logo {
+        width: 120px;
+        margin-left: 2%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .logo {
+        width: 140px;
+        margin-left: 2%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .logo {
+        width: 140px;
+        margin-left: 2%;
+    }
+}
+
+@media (min-width: 1400px) {
+    #carouselExampleIndicators {
+        width: 69%;
+        margin-left: 15.5%;
+    }
+    .logo {
+        width: 150px;
+        margin-left: 2%;
+    }
+}
+
+
+
+
